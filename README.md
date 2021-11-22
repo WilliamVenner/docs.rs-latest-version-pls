@@ -6,6 +6,6 @@ Hopefully this UserScript will not be necessary when [rust-lang/docs.rs/#1527](h
 
 ## Installation
 
-UserScripts can be installed to most major browsers. You'll need to install a UserScript extension for your browser and install the UserScript.
+UserScripts can be installed to most major browsers. You'll need to install a UserScript extension for your browser and install [the UserScript](https://raw.githubusercontent.com/WilliamVenner/docs.rs-latest-version-pls/master/docs.rs-latest-version-pls.js).
 
 https://openuserjs.org/about/Userscript-Beginners-HOWTO

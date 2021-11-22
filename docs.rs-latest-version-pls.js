@@ -20,7 +20,7 @@
 
 	// Prevent redirecting twice - maybe the user actually intended to go to this page
 	// and pressed their browser's back button
-	if (window.history.state && window.history.state.docs_rs_latest_version_redirect) return;
+	if (window.history.state && window.history.state.docs_rs_latest_version_pls) return;
 
 	const SEARCH_ENGINES = [
 		searchEngine('google'),
@@ -48,7 +48,7 @@
 
 	function redirectToLatest() {
 		// Save in the history stack that we redirected at this index
-		window.history.replaceState({ docs_rs_latest_version_redirect: true }, '', document.location);
+		window.history.replaceState({ docs_rs_latest_version_pls: true }, '', document.location);
 
 		// Redirect to latest version
 		document.location = getRedirectButton().getAttribute('href');
